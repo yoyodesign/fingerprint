@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.Caching;
 using System.Web.Hosting;
 
-namespace RunTogether.Mvc.Caching
+namespace Fingerprint
 {
 	public class Fingerprint
 	{
@@ -19,7 +19,6 @@ namespace RunTogether.Mvc.Caching
 		/// 	  <rewrite>
 		/// 		<rules>
 		/// 		  <rule name="fingerprint" >
-		/// 
 		/// 			<match url="([\S]+)(/v-[a-z0-9]+/)([\S]+)" />
 		/// 			<action type="Rewrite" url="{R:1}/{R:3}" />
 		/// 		  </rule>
@@ -33,11 +32,14 @@ namespace RunTogether.Mvc.Caching
 		/// <returns></returns>
 		public static string Tag(string rootRelativePath)
 		{
+			// Get absolute file path
+			string absolute = HostingEnvironment.MapPath("~" + rootRelativePath);
+
+			if (string.IsNullOrWhiteSpace(absolute)) { return null; }
+
+			// Check cache for path
 			if (HttpRuntime.Cache[rootRelativePath] == null)
 			{
-				// Get absolute file path
-				string absolute = HostingEnvironment.MapPath("~" + rootRelativePath);
-
 				// Open file
 				using (FileStream fs = new FileStream(absolute, FileMode.Open, FileAccess.Read, FileShare.Read))
 				{
