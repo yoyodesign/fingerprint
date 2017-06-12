@@ -1,5 +1,5 @@
 # Fingerprint
-A simple html extension method for handling cache busting on static files (.Net)
+A simple class with a method for handling cache busting on static files (.Net)
 
 It can be used for static files that often require cache busting, such as css and javascript.
 
