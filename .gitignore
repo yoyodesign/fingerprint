@@ -1,5 +1,6 @@
+.vs
+.csproj.user
 
-/src/.vs
-/src/packages
-/src/Fingerprint/bin
-/src/Fingerprint/Fingerprint.csproj.user
+packages/
+bin/
+Debug/
