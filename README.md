@@ -1,4 +1,4 @@
-[![Build status](https://ci.appveyor.com/api/projects/status/qwbxt91rlanitmvj?svg=true)](https://ci.appveyor.com/project/MMasey/fingerprint)
+[![Build status](https://ci.appveyor.com/api/projects/status/qwbxt91rlanitmvj/branch/master?svg=true)](https://ci.appveyor.com/project/MMasey/fingerprint/branch/master)
 
 # Fingerprint
 A simple class with a method for handling cache busting on static files (.Net)
