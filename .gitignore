@@ -4,3 +4,4 @@
 packages/
 bin/
 Debug/
+/nuget/*.nupkg

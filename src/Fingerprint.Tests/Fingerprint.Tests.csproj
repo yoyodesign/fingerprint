@@ -54,7 +54,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Fingerprint\Fingerprint.csproj">
-      <Project>{8556ABC4-8BEA-4B6B-AEB0-FD0797049E98}</Project>
+      <Project>{7c4abb39-9998-4a46-b968-4f3e2e68e875}</Project>
       <Name>Fingerprint</Name>
     </ProjectReference>
   </ItemGroup>

@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Yoyo.Fingerprint</id>
+    <version>1.0.0</version>
+    <title>Yoyo.Fingerprint</title>
+    <authors>Yoyo</authors>
+    <owners>Yoyo</owners>
+    <licenseUrl>http://opensource.org/licenses/MIT</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A simple class with a method for handling cache busting on static files (.Net)</description>
+    <releaseNotes>First Release</releaseNotes>
+    <copyright>Copyright 2017</copyright>
+    <tags>cache busting .net c# fingerprint fingerprinting static yoyo</tags>
+  </metadata>
+  <files>
+    <file src="tools\Web.config.transform" target="Content\Web.config.transform" />
+    <file src="..\..\build\**" target="lib\net40\" />
+    <file src="..\..\build\**" target="lib\net45\" />
+  </files>
+</package>

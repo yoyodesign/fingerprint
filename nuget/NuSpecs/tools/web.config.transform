@@ -1,0 +1,12 @@
+<configuration >
+  <system.webServer >
+    <rewrite>
+      <rules >
+        <rule name="fingerprint">
+          <match url="([\S]+)(/v-[a-z0-9]+/)([\S]+)"/>
+          <action type="Rewrite" url="{R:1}/{R:3}"/>
+        </rule>
+      </rules>
+    </rewrite>
+  </system.webServer>
+</configuration>
