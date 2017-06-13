@@ -7,6 +7,7 @@
     <authors>Yoyo</authors>
     <owners>Yoyo</owners>
     <licenseUrl>http://opensource.org/licenses/MIT</licenseUrl>
+    <projectUrl>https://github.com/yoyodesign/fingerprint</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>A simple class with a method for handling cache busting on static files (.Net)</description>
     <releaseNotes>First Release</releaseNotes>
