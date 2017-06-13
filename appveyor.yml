@@ -1,2 +1,4 @@
-language: csharp
-solution: src/Fingerprint.sln
+version: 0.0.{build}
+
+build:
+  project: src/Fingerprint.sln
