@@ -1,4 +1,8 @@
 version: 0.0.{build}
+image: Visual Studio 2015
+
+before_build:
+  - nuget restore
 
 build:
   project: src/Fingerprint.sln
