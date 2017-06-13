@@ -5,4 +5,4 @@ build:
   project: src/Fingerprint.sln
 
 before_build:
-  - nuget restore src\packages.config
+  - nuget restore src\
