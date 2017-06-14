@@ -13,7 +13,8 @@ The hash is also cached and updated when the file is updated, meaning it won't w
 
 -  ISS URL Rewrite Module installed
 
-The following code in the web.Config
+The following code in the web.Config.  
+**NOTE - If you install Fingerprint via NuGet you can skip this**
 
 ```
 <system.webServer>
