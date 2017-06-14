@@ -6,8 +6,8 @@
     <ProjectGuid>{D62CEB55-2698-4599-B89A-8F65261EF482}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Fingerprint.Tests</RootNamespace>
-    <AssemblyName>Fingerprint.Tests</AssemblyName>
+    <RootNamespace>Yoyo.Fingerprint.Tests</RootNamespace>
+    <AssemblyName>Yoyo.Fingerprint.Tests</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -53,9 +53,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Fingerprint\Fingerprint.csproj">
+    <ProjectReference Include="..\Yoyo.Fingerprint\Yoyo.Fingerprint.csproj">
       <Project>{7c4abb39-9998-4a46-b968-4f3e2e68e875}</Project>
-      <Name>Fingerprint</Name>
+      <Name>Yoyo.Fingerprint</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />

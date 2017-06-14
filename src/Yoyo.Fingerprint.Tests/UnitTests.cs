@@ -1,7 +1,7 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Diagnostics;
 
-namespace Fingerprint.Tests
+namespace Yoyo.Fingerprint.Tests
 {
 	[TestClass]
 	public class FingerprintTests

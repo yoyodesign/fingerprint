@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.Caching;
 using System.Web.Hosting;
 
-namespace Fingerprint
+namespace Yoyo.Fingerprint
 {
 	public class Fingerprint
 	{
@@ -18,7 +18,7 @@ namespace Fingerprint
 		/// 	<system.webServer>
 		/// 	  <rewrite>
 		/// 		<rules>
-		/// 		  <rule name="fingerprint" >
+		/// 		  <rule name="Yoyo.Fingerprint" >
 		/// 			<match url="([\S]+)(/v-[a-z0-9]+/)([\S]+)" />
 		/// 			<action type="Rewrite" url="{R:1}/{R:3}" />
 		/// 		  </rule>

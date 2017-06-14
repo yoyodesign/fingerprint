@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>Yoyo.Fingerprint</id>
-    <version>1.0.0</version>
+    <version>1.1.0</version>
     <title>Yoyo.Fingerprint</title>
     <authors>Yoyo</authors>
     <owners>Yoyo</owners>
@@ -15,8 +15,11 @@
     <tags>cache busting .net c# fingerprint fingerprinting static yoyo</tags>
   </metadata>
   <files>
-    <file src="tools\Web.config.transform" target="Content\Web.config.transform" />
-    <file src="..\..\build\**" target="lib\net40\" />
-    <file src="..\..\build\**" target="lib\net45\" />
+    <file src="tools\web.config.install.xdt" target="content" />
+    <file src="tools\web.config.uninstall.xdt" target="content" />
+    <file src="tools\views\web.config.install.xdt" target="content\views" />
+    <file src="tools\views\web.config.uninstall.xdt" target="content\views" />
+    <file src="Fingerprint.dll" target="lib\net40\" />
+    <file src="Fingerprint.dll" target="lib\net45\" />
   </files>
 </package>
