@@ -2,7 +2,7 @@
 [![NuGet release](https://img.shields.io/nuget/v/Yoyo.Fingerprint.svg)](https://www.nuget.org/packages/Yoyo.Fingerprint)
 
 # Fingerprint 
-A simple html extension method for handling cache busting on static files (.Net)
+A simple html helper method for handling cache busting on static files (.Net)
 
 It can be used for static files that often require cache busting, such as css and javascript.
 
