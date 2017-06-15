@@ -2,7 +2,7 @@ version: 1.0.{build}
 image: Visual Studio 2015
 
 build:
-  project: src/Fingerprint.sln
+  project: src/Yoyo.Fingerprint.sln
 
 before_build:
   - nuget restore src\
