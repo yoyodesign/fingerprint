@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<configuration xmlns:xdt="http://schemas.microsoft.com/XML-Document-Transform">
+  <system.webServer xdt:Transform="InsertIfMissing">
+    <rewrite xdt:Transform="InsertIfMissing">
+      <rules xdt:Transform="InsertIfMissing">
+      
+        <rule name="Yoyo.Fingerprint" xdt:Transform="InsertIfMissing">
+          <match url="([\S]+)(/v-[a-z0-9]+/)([\S]+)"/>
+          <action type="Rewrite" url="{R:1}/{R:3}"/>
+        </rule>
+        
+      </rules>
+    </rewrite>
+  </system.webServer>
+</configuration>

@@ -8,8 +8,8 @@
       <license url="http://opensource.org/licenses/MIT">MIT License</license>
       <url>https://github.com/yoyodesign/fingerprint</url>
       <requirements type="strict">
-        <major>7</major>
-        <minor>5</minor>
+        <major>0</major>
+        <minor>0</minor>
         <patch>0</patch>
       </requirements>
     </package>
@@ -27,26 +27,25 @@
     </file>
     <file>
       <guid>views.web.config.install.xdt</guid>
-      <orgPath>/App_Plugins/Yoyo.Fingerprint/Config/TEMP/views</orgPath>
-      <orgName>tools/views/web.config.install.xdt</orgName>
+      <orgPath>/App_Plugins/Yoyo.Fingerprint/Config/TEMP</orgPath>
+      <orgName>views.web.config.install.xdt</orgName>
     </file>
     <file>
       <guid>views.web.config.uninstall.xdt</guid>
-      <orgPath>/App_Plugins/Yoyo.Fingerprint/Config/TEMP/views</orgPath>
-      <orgName>tools/views/web.config.uninstall.xdt</orgName>
+      <orgPath>/App_Plugins/Yoyo.Fingerprint/Config/TEMP</orgPath>
+      <orgName>views.web.config.uninstall.xdt</orgName>
     </file>
     <file>
       <guid>web.config.install.xdt</guid>
       <orgPath>/App_Plugins/Yoyo.Fingerprint/Config/TEMP</orgPath>
-      <orgName>tools/web.config.install.xdt</orgName>
+      <orgName>web.config.install.xdt</orgName>
     </file>
     <file>
       <guid>web.config.uninstall.xdt</guid>
       <orgPath>/App_Plugins/Yoyo.Fingerprint/Config/TEMP</orgPath>
-      <orgName>tools/web.config.uninstall.xdt</orgName>
+      <orgName>web.config.uninstall.xdt</orgName>
     </file>
   </files>
-  
   <DocumentTypes />
   <Templates />
   <Stylesheets />
@@ -54,9 +53,8 @@
   <DictionaryItems />
   <Languages />
   <DataTypes />
-
   <Actions>
-    <Action runat="install" undo="false" alias="Yoyo.Fingerprint.TransformConfig" file="~/web.config" xdtfile="~/app_plugins/trunko/config/temp/web.config" />
-    <Action runat="install" undo="false" alias="Yoyo.Fingerprint.TransformConfig" file="~/views/web.config" xdtfile="~/app_plugins/trunko/config/temp/views/web.config" />
+    <Action runat="install" undo="false" alias="Yoyo.Fingerprint.TransformConfig" file="~/web.config" xdtfile="~/app_plugins/yoyo.fingerprint/config/temp/web.config" />
+    <Action runat="install" undo="false" alias="Yoyo.Fingerprint.TransformConfig" file="~/views/web.config" xdtfile="~/app_plugins/yoyo.fingerprint/config/temp/views.web.config" />
   </Actions>
 </umbPackage>

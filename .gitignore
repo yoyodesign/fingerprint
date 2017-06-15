@@ -1,7 +1,8 @@
-.vs
-.csproj.user
+*.vs
+*.csproj.user
+*.nupkg
 
 packages/
 bin/
 Debug/
-/nuget/*.nupkg
+obj/

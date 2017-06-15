@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<configuration xmlns:xdt="http://schemas.microsoft.com/XML-Document-Transform">
+	<system.web.webPages.razor xdt:Transform="InsertIfMissing">
+		<pages pageBaseType="System.Web.Mvc.WebViewPage" xdt:Transform="InsertIfMissing">
+			<namespaces xdt:Transform="InsertIfMissing">
+				<add namespace="Yoyo.Fingerprint" xdt:Transform="InsertIfMissing"  />
+			</namespaces>
+		</pages>
+	</system.web.webPages.razor>
+</configuration>

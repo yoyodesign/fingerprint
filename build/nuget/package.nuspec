@@ -19,7 +19,7 @@
     <file src="tools\web.config.uninstall.xdt" target="content" />
     <file src="tools\views\web.config.install.xdt" target="content\views" />
     <file src="tools\views\web.config.uninstall.xdt" target="content\views" />
-    <file src="Fingerprint.dll" target="lib\net40\" />
-    <file src="Fingerprint.dll" target="lib\net45\" />
+    <file src="..\Yoyo.Fingerprint.dll" target="lib\net40\" />
+    <file src="..\Yoyo.Fingerprint.dll" target="lib\net45\" />
   </files>
 </package>
