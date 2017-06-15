@@ -46,9 +46,9 @@
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PostBuildEvent>mkdir "$(SolutionDir)../build"
-xcopy "$(ProjectDir)bin\Yoyo.Fingerprint.dll" "$(SolutionDir)../build" /Y
-xcopy "$(ProjectDir)bin\Yoyo.Fingerprint.dll" "$(SolutionDir)../build/umbraco" /Y</PostBuildEvent>
+    <PostBuildEvent>mkdir "$(SolutionDir)../build/umbraco"
+xcopy "$(ProjectDir)bin\Yoyo.Fingerprint.dll" "$(SolutionDir)../build" /y /i
+xcopy "$(ProjectDir)bin\Yoyo.Fingerprint.dll" "$(SolutionDir)../build/umbraco" /y /i</PostBuildEvent>
   </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
