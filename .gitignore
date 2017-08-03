@@ -6,3 +6,6 @@ packages/
 bin/
 Debug/
 obj/
+/build/umbraco/Yoyo.Fingerprint.dll
+/build/umbraco/Microsoft.Web.XmlTransform.dll
+/build/Yoyo.Fingerprint.dll
