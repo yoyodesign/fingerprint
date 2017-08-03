@@ -26,6 +26,11 @@
       <orgName>Yoyo.Fingerprint.dll</orgName>
     </file>
     <file>
+      <guid>Microsoft.Web.XmlTransform.dll</guid>
+      <orgPath>/bin</orgPath>
+      <orgName>Microsoft.Web.XmlTransform.dll</orgName>
+    </file>
+    <file>
       <guid>views.web.config.install.xdt</guid>
       <orgPath>/App_Plugins/Yoyo.Fingerprint/Config/TEMP</orgPath>
       <orgName>views.web.config.install.xdt</orgName>
@@ -54,7 +59,7 @@
   <Languages />
   <DataTypes />
   <Actions>
-    <Action runat="install" undo="false" alias="Yoyo.Fingerprint.TransformConfig" file="~/web.config" xdtfile="~/app_plugins/yoyo.fingerprint/config/temp/web.config" />
-    <Action runat="install" undo="false" alias="Yoyo.Fingerprint.TransformConfig" file="~/views/web.config" xdtfile="~/app_plugins/yoyo.fingerprint/config/temp/views.web.config" />
+    <Action runat="install" undo="true" alias="YoyoFingerprint" file="~/web.config" xdtfile="~/app_plugins/yoyo.fingerprint/config/temp/web.config" />
+    <Action runat="install" undo="true" alias="YoyoFingerprint" file="~/views/web.config" xdtfile="~/app_plugins/yoyo.fingerprint/config/temp/views.web.config" />
   </Actions>
 </umbPackage>
