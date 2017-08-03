@@ -1,7 +1,11 @@
-.vs
-.csproj.user
+*.vs
+*.csproj.user
+*.nupkg
 
 packages/
 bin/
 Debug/
-/nuget/*.nupkg
+obj/
+/build/umbraco/Yoyo.Fingerprint.dll
+/build/umbraco/Microsoft.Web.XmlTransform.dll
+/build/Yoyo.Fingerprint.dll
