@@ -11,7 +11,7 @@ The hash is also cached and updated when the file is updated, meaning it won't w
 
 ## Requirements
 
--  ISS URL Rewrite Module installed
+-  IIS URL Rewrite Module installed
 
 The following code in the web.Config
 
