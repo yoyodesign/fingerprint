@@ -36,7 +36,7 @@ namespace Yoyo.Fingerprint
             // Get absolute file path
             string absolute = HostingEnvironment.MapPath("~" + rootRelativePath);
 
-            if (string.IsNullOrWhiteSpace(absolute)) { return null; }
+            if (string.IsNullOrWhiteSpace(absolute)) { return rootRelativePath; }
 
             // Check cache for path
             if (HttpRuntime.Cache[rootRelativePath] == null)

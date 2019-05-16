@@ -20,10 +20,11 @@ namespace Yoyo.Fingerprint.Tests
 		public void MissingFileTest()
 		{
 			string filePath = "assets/missingfile.css";
-			string expected = null;
-			string actual = Fingerprint.Tag(filePath);
+			string expected = "assets/missingfile.css";
+
+            string actual = Fingerprint.Tag(filePath);
 			Debug.WriteLine(actual);
-			Assert.AreEqual(expected, actual, "Fingerprint should return missing file value as null");
+			Assert.AreEqual(expected, actual, "Fingerprint should return missing file value as initial file value");
 		}
 
 
