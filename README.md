@@ -1,4 +1,4 @@
-[![Build status](https://ci.appveyor.com/api/projects/status/qwbxt91rlanitmvj?svg=true)](https://ci.appveyor.com/project/MMasey/fingerprint)
+[![Build status](https://ci.appveyor.com/api/projects/status/lrl8jlxn7hto02u8?svg=true)](https://ci.appveyor.com/project/MMasey/fingerprint-13jro)
 [![NuGet release](https://img.shields.io/nuget/v/Yoyo.Fingerprint.svg)](https://www.nuget.org/packages/Yoyo.Fingerprint)
 
 # Yoyo.Fingerprint 
